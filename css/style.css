@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 250px; */
+}
+
+button{
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 40px;
+    font-size: 5rem;
+    transition: all 0.3s;
+    border: none;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+}
+
+.sad:hover{
+    background: red;
+    color: black;
+}
+.neutral:hover{
+    background: yellow;
+    color: black;
+}
+.happy:hover{
+    background: green;
+    color: white;
+}
+
+.graphique{
+    display: flex;
+    justify-content: space-evenly;
+}
+.myChart{
+/* width: 50%; */
+}
+#calendar{
+    background-color: aqua;
+    /* width: 50%; */
+}
